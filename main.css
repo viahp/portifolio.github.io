@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+body{
+  
+   
+    justify-content:center;
+   
+    margin-top:20px;
+    
+}
+.container_um{
+    display:flex;
+    flex:0.8;
+}
+.container_dois{
+    display:flex;
+    flex:0.1;
+}
+.container_tres{
+    display:flex;
+    
+    flex:0.1;
+}
+.container_quatro{
+    display:flex;
+    flex:0.1;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.container_principal{
+    display:flex;
+    flex:0.8;
+   flex-basis:80%;
+ 
+  height:500px;
+
+ background-image:url("https://blog.emania.com.br/wp-content/uploads/2016/01/fotos-de-montanhas-originais.jpg");
+  background-repeat:no-repeat;
+  background-size: 100% cover ;
+}
+.container_cinco{
+    color:rgb(230, 34, 8);
+    border:solid rgb(230, 34, 8);
+    height:60px;
+    width:100px;
+   border-radius:4px;
+    
+}
+.container_cinco h3{
+    margin:15px;
+}
+
+.container_principal_dois{
+    display:flex;
+    flex-direction:column;
+    margin-top:300px;
+    margin-left:100px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size:30px;
+    
+   
+}
+img{
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:200px;
+    left:150px;
+}
+
+
+#espaco{
+    width:20px;
+}
+.quadrado_principal{
+    display:flex;
+   
+}
+.quadrado_principal h3{
+    position:absolute;
+    top:280px;
+    left:100px;
+    font-size:35px;
+    color:rgb(230, 34, 8);
+}
+.quadrado_principal h4{
+    position:absolute;
+    top:360px;
+    left:60px;
+    font-size:25px;
+}
+#a{
+    color:rgb(230, 34, 8);
+}
+.container_aa{
+
+display:flex;
+height:500px;
+background-color:rgb(23, 25, 31);
+}
+.container_aa h2{
+    position:absolute;
+    top:600px;
+    left:100px;
+    font-size:35px;
+    color:white;
+}
+.container_aa input{
+    width:100px;
+    height:1px;
+    position:absolute;
+    top:670px;
+    left:100px;
+    background-color:rgb(230, 34, 8);
+}
